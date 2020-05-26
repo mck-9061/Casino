@@ -1,0 +1,9 @@
+name: Casino
+version: 1.0
+author: MCK
+api-version: 1.13
+main: me.threalmck.casino.Main
+commands:
+  setgamebutton:
+    description: 'Admin command: Sets the button you are looking at to run a casino game.'
+    usage: '/setgamebutton [game]'

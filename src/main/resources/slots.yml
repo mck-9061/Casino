@@ -1,0 +1,23 @@
+# Slots config: Set the winnings for each slot icon.
+# Format is x:1
+# For example if (a: 2), then if three a's match, the player will receive double their bet.
+# Remember to reboot the server after changing any of these values.
+a: 1
+b: 1
+c: 1
+cherry: 1
+grapes: 1
+lemon: 1
+lime: 1
+orange: 1
+seven: 1
+
+# Jackpot settings and storage
+# The value the jackpot will reset to once it is hit.
+DefaultJackpot: 10000
+# This value stores the current jackpot.
+CurrentJackpot: 10000
+# The icon that must be lined up in line 1 to get jackpot. Valid icons: seven, cherry, grapes, lemon, lime, orange, a, b, c
+JackpotIcon: seven
+# The minimum initial bet a player must place to have a chance at jackpot.
+MinimumBet: 100
